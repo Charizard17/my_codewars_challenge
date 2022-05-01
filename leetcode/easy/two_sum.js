@@ -68,4 +68,4 @@ var twoSum = function(nums, target) {
     }
 }
 
-// O(n) time complexity
+// O(n^2) time complexity
