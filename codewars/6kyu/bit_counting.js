@@ -11,13 +11,9 @@
 // SOLUTION
 // input is non-negative integer
 
-// set a variable for bit counts
+// set a variable for converting integer to 2 floor bit value
 
-// while the rest of int is greater than zero
-// find maximum possible 2^n
-// extract it from int and increase bit count
-
-// when the rest is zero, break the loop and return bit counting
+// count the bits and return it
 
 var countBits = function (integer) {
   let bit = integer.toString(2);
